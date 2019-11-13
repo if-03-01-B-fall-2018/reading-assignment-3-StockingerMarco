@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta encoding="utf-8" />
+    <title>Cheat-Sheet 2</title>
+
+    <style>
+    center{
+      background-color: black;
+    }
+    p{
+      color: #58FAD0;
+    }
+    li
+    {
+      color: #64FF00;
+    }
+    body{
+      line-break: auto;
+      background-color: gray;
+      color: #64FF00;
+      margin:auto;
+        }
+        div
+        {
+          text-decoration: underline overline;
+        }
+        div1
+        {
+           color: blue;
+        }
+    </style>
+</head>
+
+<body>
+  <div1><font size = "100" face = "impact"  <center>Reading Assignment 3</center></font></div1>
+  <h1>Html for Lists</h1>
+   <p>
+   <u><strong>Start tags for </strong></u>
+   <ul>
+   <li>An ordered list</li>
+   <br>An ordered list starts with the < ol > tag. Each list item starts with the < li > tag. The list items will be marked with numbers by default:
+   <br> < ol >
+   <br><li>Coffee</li>
+   <br><li>Tea</li>
+   <br><li>Milk</li>
+   <br>
+   <li>An unordered list</li>
+   <br>An unordered list starts with the < ul > tag. Each list item starts with the < li > tag. The list items will be marked with bullets (small black circles) by default:
+   <br><ul>
+   <br><li>Coffee</li>
+   <br><li>Tea</li>
+   <br><li>Milk</li>
+   <br></ul>
+   <li>A description list</li>
+   <br>A description list is a list of terms, with a description of each term. The < dl > tag defines the description list, the < dt > tag defines the term (name), and the < dd > tag describes each term:
+   <br><dl>
+   <br><dt>Coffee</dt>
+   <br><dd>- black hot drink</dd>
+   <br><dt>Milk</dt>
+   <br><dd>- white cold drink</dd>
+   <br></dl>
+   <li>List item</li>
+    <ul>
+    <li>type="1"</li>
+    <br>The list items will be numbered with numbers (default)
+    <li>type="A"</li>
+    <br>The list items will be numbered with uppercase letters
+    <li>type="a"</li>
+    <br>The list items will be numbered with lowercase letters
+    <li>type="I"</li>
+    <br>The list items will be numbered with uppercase roman numbers
+    <li>type="i"</li>
+    <br>The list items will be numbered with lowercase roman numbers
+    </ul>
+   <li>A description term</li>
+   <br>The < dt > tag defines each term
+   <li>A description data</li>
+   <br>The < dd > tag describes the term
+   </ul>
+   </p>
+
+   <h1>Css for Lists</h1>
+    <p>
+    <u><strong>Make bullet a square</strong></u>
+    <br>ul.b {
+    <br>list-style-type: square;
+    <br>}
+    </p>
+
+    <p>
+    <u><strong>Make bullet an image named "my-bullet.png"</strong></u>
+    <br>ul {
+    <br>list-style-image: url('my-bullet.png');
+    <br>}
+    </p>
+
+    <p>
+    <u><strong>Make bullet an uppercase roman number</strong></u>
+    <br>ol.c {
+    <br>list-style-type: upper-roman;
+    <br>}
+    </p>
+
+    <p>
+    <u><strong>Set bullet position to be inside the list item's text flow</strong></u>
+    <br>ul.b {
+    <br>list-style-position: inside;
+    <br>}
+    </p>
+
+    <p>
+    <u><strong>Set bullet position to be outside the list item's text flow</strong></u>
+    <br>ul.a {
+    <br>list-style-position: outside;
+    <br>}
+    </p>
+   </p>
+
+   <h1>Html for Tables</h1>
+   <p>
+    <p>
+    <u><strong>Start tags for</strong></u>
+    <ul>
+    <li>a table</li>
+    <br>An HTML table is defined with the < table > tag.
+    <li>a table row</li>
+    <br>Each table row is defined with the < tr > tag.
+    <li>a table header</li>
+    <br>A table header is defined with the < th > tag.
+    <li>a table header cell</li>
+    <br>table, th, td {}
+    <li>a table cell</li>
+    <br>A table data/cell is defined with the < td > tag.
+    <li>a table body</li>
+    <br>< tbody >
+    <li>a table footer</li>
+    <br>< tfoot >
+    </ul>
+    </p>
+   </p>
+
+   <h1>Css for Tables</h1>
+   <p>
+    <p>
+    <u><strong>Black dotted border of 1 px width</strong></u>
+    <br>table, th, td {
+    <br>border: 1px solid black;
+    <br>}
+    </p>
+
+    <p>
+    <u><strong>Solid border of 1 px width having a red color and rounded corners</strong></u>
+    <br>table, th, td {
+    <br>border-radius: 25px;
+    <br>border: 1px solid red;
+    <br>}
+    </p>
+
+    <p>
+    <u><strong>Merge the borders of table cells so that they appear as one line</strong></u>
+    <br>table {
+    <br>border-collapse: collapse;
+    <br>}
+    <br>
+    <br>table, th, td {
+    <br>border: 1px solid black;
+    <br>}
+    </p>
+   </p>
+</p>
+
+
+          <a href="cheatsheet.html"><button>CheatSheet</button></a>
+          <a href="cheatsheet2.html"><button>CheatSheet 2</button></a>
+          <a href="cheatsheet4.html"><button>CheatSheet 4</button></a>
+
+</body>
+
+</html>
